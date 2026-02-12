@@ -19,7 +19,7 @@ background = cv.circle(canva,(512//2,512//2),90,(180,180,45),-1)
 background = cv.circle(canva,(512//2,512//2),60,(150,180,105),-1)
 
 font = cv.FONT_HERSHEY_COMPLEX
-# cv.putText(canva u display, name, location, font, size, colour, how to we rended the text)
+# cv.putText(canva u display, name, location, font, size, colour, thickness, how to we rended the text)
 cv.putText(canva, "SANS", (512//2-40, 512//2+50), font, 1,(0,0,0), 2, cv.LINE_AA) 
 
 # digit 7
